@@ -15,16 +15,17 @@ curva de precisión frente a tamaño del conjunto de entrenamiento.
 
 ## Video de sustentacion
 
-https://drive.google.com/file/d/1cVHKfNbJDfTuMKI2Htu7jnaFPvu8_PVF/view?usp=sharing
+Link drive: https://drive.google.com/file/d/1cVHKfNbJDfTuMKI2Htu7jnaFPvu8_PVF/view?usp=sharing
+Link youtube: https://youtu.be/wGpoL1Y9Fvs
 
 ## Estructura
 
 ```
 src/          lógica reutilizable (datos, scattering, modelos, evaluación)
 notebooks/    exploración y figuras; llaman a src/, no duplican lógica
-results/      métricas en JSON/CSV, versionadas (los cachés pesados no)
+results/      métricas en JSON/CSV, versionadas
 figures/      salida vectorial PDF/SVG para el documento
-paper/        fuentes LaTeX
+paper/        fuentes LaTeX y PDF
 ```
 
 ## Entorno
