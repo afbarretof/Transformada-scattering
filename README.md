@@ -1,18 +1,21 @@
-# Scattering Transforms: teoría y réplica experimental
+# Transformadas de scattering: invarianza sin aprendizaje
 
-Trabajo final del curso de Deep Learning. Exposición de las *scattering
+Trabajo final del curso de Matemáticas del aprendizaje de máquinas. Exposición de las *scattering
 transforms* de Bruna y Mallat, réplica parcial de sus experimentos sobre MNIST y
 comparación empírica contra una CNN entrenada end-to-end.
 
 ## Pregunta central
 
 La transformada de scattering es una cascada de convoluciones wavelet, módulo y
-promediado con **filtros fijos y cero parámetros aprendidos**. La hipótesis que
+promediado con filtros fijos y cero parámetros aprendidos. La hipótesis que
 pone a prueba este trabajo es que esa ausencia de aprendizaje debería ser una
-ventaja precisamente en el régimen de pocos datos, donde una CNN tiene demasiada
+ventaja con pocos datos, donde una CNN tiene demasiada
 capacidad para la evidencia disponible. El experimento central es por tanto la
-curva de **precisión frente a tamaño del conjunto de entrenamiento**, no la
-precisión con el dataset completo.
+curva de precisión frente a tamaño del conjunto de entrenamiento. 
+
+## Video de sustentacion
+
+https://drive.google.com/file/d/1cVHKfNbJDfTuMKI2Htu7jnaFPvu8_PVF/view?usp=sharing
 
 ## Estructura
 
@@ -42,10 +45,4 @@ resultados una instantánea del entorno (versiones de librerías, GPU, commit de
 git) mediante `src.repro.environment_report`. Los resultados intermedios se
 guardan en `results/` para poder iterar la redacción sin re-entrenar.
 
-## Referencias
 
-- Bruna, J. & Mallat, S. (2013). *Invariant Scattering Convolution Networks*.
-  IEEE TPAMI 35(8), 1872–1886. [arXiv:1203.1513](https://arxiv.org/abs/1203.1513)
-- Mallat, S. (2012). *Group Invariant Scattering*. CPAM 65(10), 1331–1398.
-- Bruna, J. & Mallat, S. (2011). *Classification with Scattering Operators*. CVPR.
-- Andreux et al. (2020). *Kymatio: Scattering Transforms in Python*. JMLR 21(60).
