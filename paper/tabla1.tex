@@ -1,0 +1,25 @@
+% Generado por scripts/consolidar.py — no editar a mano.
+\begin{table*}[t]
+  \centering
+  \small
+  \caption{Error de clasificación (\%) en MNIST según el tamaño del
+  conjunto de entrenamiento. Media $\pm$ desviación típica sobre cinco
+  semillas. Las dos últimas filas reproducen los valores publicados por
+  Bruna y Mallat para referencia.}
+  \label{tab:resultados}
+  \begin{tabular}{lrrrrr}
+    \toprule
+    Modelo & $n=300$ & $n=1000$ & $n=2000$ & $n=5000$ & $n=10000$ \\
+    \midrule
+    píxeles + SVM & 13.56 $\pm$ 1.06 & 7.94 $\pm$ 0.26 & 5.77 $\pm$ 0.33 & 3.82 $\pm$ 0.13 & 2.89 $\pm$ 0.06 \\
+    scattering orden 1 + PCA & 5.33 $\pm$ 0.20 & 2.85 $\pm$ 0.28 & 2.21 $\pm$ 0.08 & 1.91 $\pm$ 0.11 & 1.82 $\pm$ 0.05 \\
+    scattering orden 1 + SVM & 7.26 $\pm$ 0.59 & 3.56 $\pm$ 0.37 & 2.49 $\pm$ 0.19 & 1.69 $\pm$ 0.16 & 1.26 $\pm$ 0.07 \\
+    scattering orden 2 + PCA & 4.21 $\pm$ 0.61 & 1.46 $\pm$ 0.13 & 1.18 $\pm$ 0.04 & 0.99 $\pm$ 0.06 & 0.82 $\pm$ 0.02 \\
+    scattering orden 2 + SVM & 5.33 $\pm$ 0.58 & 2.59 $\pm$ 0.25 & 1.91 $\pm$ 0.15 & 1.23 $\pm$ 0.11 & 0.97 $\pm$ 0.03 \\
+    CNN entrenada & 4.17 $\pm$ 0.14 & 2.28 $\pm$ 0.18 & 1.70 $\pm$ 0.12 & 1.08 $\pm$ 0.10 & 0.77 $\pm$ 0.06 \\
+    \midrule
+    \emph{Bruna y Mallat, scattering orden 2 + PCA} & 4.70 & 2.30 & 1.30 & 1.03 & 0.88 \\
+    \emph{Bruna y Mallat, ConvNet} & 7.18 & 3.21 & 2.53 & 1.52 & 0.85 \\
+    \bottomrule
+  \end{tabular}
+\end{table*}

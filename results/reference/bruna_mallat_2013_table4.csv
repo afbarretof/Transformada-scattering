@@ -1,0 +1,29 @@
+# Tabla 4 de Bruna & Mallat (2013), "Invariant Scattering Convolution Networks",
+# IEEE TPAMI 35(8), 1872-1886. arXiv:1203.1513, pagina 13 del PDF de arXiv.
+#
+# Porcentaje de error de clasificacion en MNIST sobre un conjunto de test fijo,
+# en funcion del tamano del conjunto de entrenamiento.
+#
+# Columnas:
+#   pixels_*    clasificador aplicado directamente a la imagen
+#   wfourier_*  modulo de la transformada de Fourier con ventana (2^J = 8)
+#   scat1_*     scattering de orden maximo 1
+#   scat2_*     scattering de orden maximo 2
+#   convnet     red convolucional de LeCun et al. [ref. 18 del paper]
+#
+# Parametros del paper: 2^J = 8 (es decir J = 3), elegido por validacion cruzada.
+# Representacion "reduced cosine scattering" (seccion 3.3), que conserva la mitad
+# de baja frecuencia de los coeficientes. OJO: Kymatio no implementa esa
+# reduccion, asi que nuestras cifras no seran identicas a estas.
+# SVM: kernel RBF (Libsvm), coeficientes renormalizados a [-1, 1], varianza por CV.
+# PCA: renormalizacion de la ecuacion (19), dividiendo cada S[p]X(u) por
+#      max sobre las senales de entrenamiento de ||S[p]Xi||.
+train_size,pixels_pca,pixels_svm,wfourier_pca,wfourier_svm,scat1_pca,scat1_svm,scat2_pca,scat2_svm,convnet
+300,14.5,15.4,7.35,7.4,5.7,8.0,4.7,5.6,7.18
+1000,7.2,8.2,3.74,3.74,2.35,4.0,2.3,2.6,3.21
+2000,5.8,6.5,2.99,2.9,1.7,2.6,1.3,1.8,2.53
+5000,4.9,4.0,2.34,2.2,1.6,1.6,1.03,1.4,1.52
+10000,4.55,3.11,2.24,1.65,1.5,1.23,0.88,1.0,0.85
+20000,4.25,2.2,1.92,1.15,1.4,0.96,0.79,0.58,0.76
+40000,4.1,1.7,1.85,0.9,1.36,0.75,0.74,0.53,0.65
+60000,4.3,1.4,1.80,0.8,1.34,0.62,0.7,0.43,0.53

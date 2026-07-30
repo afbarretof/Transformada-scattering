@@ -1,0 +1,241 @@
+{
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "torchvision": "0.21.0+cu124",
+      "kymatio": "0.3.0",
+      "sklearn": "1.9.0",
+      "numpy": "2.2.6",
+      "scipy": "1.14.1",
+      "matplotlib": "3.11.1"
+    },
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "git_commit": "f0b1bc0"
+  },
+  "results": [
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.11650000000000005,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 0.6153759000007994,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.052200000000000024,
+      "best_params": {
+        "n_components": "10"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.06463220000296133,
+      "extra": {
+        "sigma_d2": 0.2099848184357746,
+        "lambda_d": 2.7921087093443466
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.06659999999999999,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.3373907999994117,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.04920000000000002,
+      "best_params": {
+        "n_components": "5"
+      },
+      "n_features": 3472,
+      "fit_seconds": 0.5980079000000842,
+      "extra": {
+        "sigma_d2": 0.4709055988421175,
+        "lambda_d": 2.302673355567777
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.057499999999999996,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 3472,
+      "fit_seconds": 2.4901473999998416,
+      "extra": {}
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.07809999999999995,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 4.068170599995938,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.02739999999999998,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.714443899996695,
+      "extra": {
+        "sigma_d2": 0.04238489347588051,
+        "lambda_d": 3.708289795665716
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.04190000000000005,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.7593963999970583,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.014399999999999968,
+      "best_params": {
+        "n_components": "65"
+      },
+      "n_features": 3472,
+      "fit_seconds": 3.8402919999934966,
+      "extra": {
+        "sigma_d2": 0.12737390953297772,
+        "lambda_d": 3.217589633575364
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.029900000000000038,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 18.199756399997568,
+      "extra": {}
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.038799999999999946,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 62.783137099999294,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.01880000000000004,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 6.833965199999511,
+      "extra": {
+        "sigma_d2": 0.028852375091869102,
+        "lambda_d": 3.859237918222668
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.019399999999999973,
+      "best_params": {
+        "svc__C": "1000.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 400,
+      "fit_seconds": 23.803897500001767,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.010000000000000009,
+      "best_params": {
+        "n_components": "140"
+      },
+      "n_features": 3472,
+      "fit_seconds": 31.29784940000536,
+      "extra": {
+        "sigma_d2": 0.049369905889530455,
+        "lambda_d": 3.6029852494463683
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.013599999999999945,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 258.22555360000115,
+      "extra": {}
+    }
+  ]
+}

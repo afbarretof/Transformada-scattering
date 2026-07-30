@@ -1,0 +1,67 @@
+{
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "torchvision": "0.21.0+cu124",
+      "kymatio": "0.3.0",
+      "sklearn": "1.9.0",
+      "numpy": "2.2.6",
+      "scipy": "1.14.1",
+      "matplotlib": "3.11.1"
+    },
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "git_commit": "8b1f783"
+  },
+  "results": [
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.0394,
+      "best_params": {
+        "best_epoch": "59"
+      },
+      "n_features": 1024,
+      "fit_seconds": 12.68551429999934,
+      "extra": {
+        "n_parameters": 75626,
+        "val_size": 60
+      }
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.0255,
+      "best_params": {
+        "best_epoch": "32"
+      },
+      "n_features": 1024,
+      "fit_seconds": 24.71860089999973,
+      "extra": {
+        "n_parameters": 75626,
+        "val_size": 200
+      }
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.0107,
+      "best_params": {
+        "best_epoch": "54"
+      },
+      "n_features": 1024,
+      "fit_seconds": 147.60755379999318,
+      "extra": {
+        "n_parameters": 75626,
+        "val_size": 1000
+      }
+    }
+  ]
+}

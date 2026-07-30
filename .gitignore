@@ -1,0 +1,28 @@
+# Entorno
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Datos descargados (MNIST se re-descarga solo)
+data/
+
+# Cachés pesados de coeficientes de scattering
+results/cache/
+*.npy
+*.npz
+
+# LaTeX
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+
+# SO
+Thumbs.db
+desktop.ini

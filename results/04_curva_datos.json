@@ -1,0 +1,2244 @@
+{
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "torchvision": "0.21.0+cu124",
+      "kymatio": "0.3.0",
+      "sklearn": "1.9.0",
+      "numpy": "2.2.6",
+      "scipy": "1.14.1",
+      "matplotlib": "3.11.1"
+    },
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "git_commit": "3174bf6"
+  },
+  "results": [
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.11650000000000005,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 0.6016031000035582,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.052200000000000024,
+      "best_params": {
+        "n_components": "10"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.06801330000598682,
+      "extra": {
+        "sigma_d2": 0.2099848184357746,
+        "lambda_d": 2.7921087093443466
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.06659999999999999,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.35708270000031916,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.04920000000000002,
+      "best_params": {
+        "n_components": "5"
+      },
+      "n_features": 3472,
+      "fit_seconds": 0.6243646999937482,
+      "extra": {
+        "sigma_d2": 0.4709055988421175,
+        "lambda_d": 2.302673355567777
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.057499999999999996,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 3472,
+      "fit_seconds": 2.668658199996571,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 0,
+      "error_rate": 0.0407,
+      "best_params": {
+        "best_epoch": "47"
+      },
+      "n_features": 1024,
+      "fit_seconds": 19.243424200001755,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.07809999999999995,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 4.323922600000515,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.02739999999999998,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.7738597999996273,
+      "extra": {
+        "sigma_d2": 0.04238489347588051,
+        "lambda_d": 3.708289795665716
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.04190000000000005,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.9121085000006133,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.014399999999999968,
+      "best_params": {
+        "n_components": "65"
+      },
+      "n_features": 3472,
+      "fit_seconds": 4.076493599997775,
+      "extra": {
+        "sigma_d2": 0.12737390953297772,
+        "lambda_d": 3.217589633575364
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.029900000000000038,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 19.014867600002617,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 0,
+      "error_rate": 0.0236,
+      "best_params": {
+        "best_epoch": "53"
+      },
+      "n_features": 1024,
+      "fit_seconds": 53.87653880000289,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 0,
+      "error_rate": 0.058599999999999985,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 16.967725400005293,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 0,
+      "error_rate": 0.02090000000000003,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 4.95771209999657,
+      "extra": {
+        "sigma_d2": 0.03401378309435203,
+        "lambda_d": 3.791546933204457
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 0,
+      "error_rate": 0.026100000000000012,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 400,
+      "fit_seconds": 5.732249000000593,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 0,
+      "error_rate": 0.011399999999999966,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 3472,
+      "fit_seconds": 10.640624599996954,
+      "extra": {
+        "sigma_d2": 0.09110113721477178,
+        "lambda_d": 3.4264514300779796
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 0,
+      "error_rate": 0.02070000000000005,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 3472,
+      "fit_seconds": 60.08480050000071,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 0,
+      "error_rate": 0.0181,
+      "best_params": {
+        "best_epoch": "54"
+      },
+      "n_features": 1024,
+      "fit_seconds": 104.91825039999821,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.038799999999999946,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 78.86183560000063,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.01880000000000004,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 7.331337900002836,
+      "extra": {
+        "sigma_d2": 0.028852375091869102,
+        "lambda_d": 3.859237918222668
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.019399999999999973,
+      "best_params": {
+        "svc__C": "1000.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 400,
+      "fit_seconds": 24.388897000004363,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.010000000000000009,
+      "best_params": {
+        "n_components": "140"
+      },
+      "n_features": 3472,
+      "fit_seconds": 33.490267699999094,
+      "extra": {
+        "sigma_d2": 0.049369905889530455,
+        "lambda_d": 3.6029852494463683
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.013599999999999945,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 259.1475829999981,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 0,
+      "error_rate": 0.0115,
+      "best_params": {
+        "best_epoch": "57"
+      },
+      "n_features": 1024,
+      "fit_seconds": 250.05639119999978,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 0,
+      "error_rate": 0.02839999999999998,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 248.52460509999946,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 0,
+      "error_rate": 0.018399999999999972,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 400,
+      "fit_seconds": 12.439445299998624,
+      "extra": {
+        "sigma_d2": 0.007953407772842548,
+        "lambda_d": 3.8354953300420056
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 0,
+      "error_rate": 0.012700000000000045,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 400,
+      "fit_seconds": 75.1350650999957,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 0,
+      "error_rate": 0.008199999999999985,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 3472,
+      "fit_seconds": 79.22551250000106,
+      "extra": {
+        "sigma_d2": 0.0665908078992852,
+        "lambda_d": 3.538455950047058
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 0,
+      "error_rate": 0.00990000000000002,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 789.6711280999953,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 0,
+      "error_rate": 0.0086,
+      "best_params": {
+        "best_epoch": "55"
+      },
+      "n_features": 1024,
+      "fit_seconds": 531.2492383999997,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 1,
+      "error_rate": 0.14800000000000002,
+      "best_params": {
+        "svc__C": "1.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 0.6850172999984352,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 1,
+      "error_rate": 0.054200000000000026,
+      "best_params": {
+        "n_components": "10"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.06575180000072578,
+      "extra": {
+        "sigma_d2": 0.2081141953920691,
+        "lambda_d": 2.712583599235413
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 1,
+      "error_rate": 0.0655,
+      "best_params": {
+        "svc__C": "1000.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.3433337999958894,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 1,
+      "error_rate": 0.03749999999999998,
+      "best_params": {
+        "n_components": "19"
+      },
+      "n_features": 3472,
+      "fit_seconds": 0.6301028999951086,
+      "extra": {
+        "sigma_d2": 0.2955908714352912,
+        "lambda_d": 2.483293793038392
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 1,
+      "error_rate": 0.0474,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 2.5097663999986253,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 1,
+      "error_rate": 0.043,
+      "best_params": {
+        "best_epoch": "41"
+      },
+      "n_features": 1024,
+      "fit_seconds": 18.555975199997192,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 1,
+      "error_rate": 0.08230000000000004,
+      "best_params": {
+        "svc__C": "1.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 4.904023600000073,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 1,
+      "error_rate": 0.03359999999999996,
+      "best_params": {
+        "n_components": "10"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.774463999994623,
+      "extra": {
+        "sigma_d2": 0.1631728670804179,
+        "lambda_d": 3.1113123042180852
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 1,
+      "error_rate": 0.035499999999999976,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.7978695999991032,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 1,
+      "error_rate": 0.01539999999999997,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 3472,
+      "fit_seconds": 3.914307300001383,
+      "extra": {
+        "sigma_d2": 0.15664065335783978,
+        "lambda_d": 3.0258599961157873
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 1,
+      "error_rate": 0.027800000000000047,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 18.50473310000234,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 1,
+      "error_rate": 0.0241,
+      "best_params": {
+        "best_epoch": "42"
+      },
+      "n_features": 1024,
+      "fit_seconds": 50.61832940000022,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 1,
+      "error_rate": 0.05589999999999995,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 16.823500099999364,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 1,
+      "error_rate": 0.023399999999999976,
+      "best_params": {
+        "n_components": "20"
+      },
+      "n_features": 400,
+      "fit_seconds": 4.998293899996497,
+      "extra": {
+        "sigma_d2": 0.07777651514478012,
+        "lambda_d": 3.773623916533939
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 1,
+      "error_rate": 0.026100000000000012,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 400,
+      "fit_seconds": 5.576161600001797,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 1,
+      "error_rate": 0.011399999999999966,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 3472,
+      "fit_seconds": 10.486053000000538,
+      "extra": {
+        "sigma_d2": 0.09111033662100199,
+        "lambda_d": 3.5311172126931076
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 1,
+      "error_rate": 0.02080000000000004,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 60.594378500005405,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 1,
+      "error_rate": 0.0185,
+      "best_params": {
+        "best_epoch": "46"
+      },
+      "n_features": 1024,
+      "fit_seconds": 100.52763350000168,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 1,
+      "error_rate": 0.040200000000000014,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 79.44279880000249,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 1,
+      "error_rate": 0.018399999999999972,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 7.140167700003076,
+      "extra": {
+        "sigma_d2": 0.028799131940751184,
+        "lambda_d": 3.899934937331725
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 1,
+      "error_rate": 0.014599999999999946,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 400,
+      "fit_seconds": 24.564170100005867,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 1,
+      "error_rate": 0.009800000000000031,
+      "best_params": {
+        "n_components": "200"
+      },
+      "n_features": 3472,
+      "fit_seconds": 32.8487094000011,
+      "extra": {
+        "sigma_d2": 0.037872456384772255,
+        "lambda_d": 3.75517104912848
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 1,
+      "error_rate": 0.010399999999999965,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 261.88360359999933,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 1,
+      "error_rate": 0.0091,
+      "best_params": {
+        "best_epoch": "59"
+      },
+      "n_features": 1024,
+      "fit_seconds": 263.85625789999904,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 1,
+      "error_rate": 0.028699999999999948,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 267.0018304000041,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 1,
+      "error_rate": 0.018000000000000016,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 14.647446499999205,
+      "extra": {
+        "sigma_d2": 0.027069045602595078,
+        "lambda_d": 4.029282261055052
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 1,
+      "error_rate": 0.013800000000000034,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 400,
+      "fit_seconds": 78.2143195000026,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 1,
+      "error_rate": 0.007900000000000018,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 3472,
+      "fit_seconds": 91.0740766999952,
+      "extra": {
+        "sigma_d2": 0.06672760736487147,
+        "lambda_d": 3.5771870022256187
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 1,
+      "error_rate": 0.009199999999999986,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 861.7653045999978,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 1,
+      "error_rate": 0.0069,
+      "best_params": {
+        "best_epoch": "55"
+      },
+      "n_features": 1024,
+      "fit_seconds": 515.4273222999982,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 2,
+      "error_rate": 0.14029999999999998,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 784,
+      "fit_seconds": 0.6771623000022373,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 2,
+      "error_rate": 0.05300000000000005,
+      "best_params": {
+        "n_components": "10"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.07087380000302801,
+      "extra": {
+        "sigma_d2": 0.20485659613188703,
+        "lambda_d": 2.746383736044947
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 2,
+      "error_rate": 0.07779999999999998,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.3590652000057162,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 2,
+      "error_rate": 0.03410000000000002,
+      "best_params": {
+        "n_components": "19"
+      },
+      "n_features": 3472,
+      "fit_seconds": 0.6348208000054001,
+      "extra": {
+        "sigma_d2": 0.2946619315502931,
+        "lambda_d": 2.533684726713891
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 2,
+      "error_rate": 0.05989999999999995,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 2.557186300000467,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 2,
+      "error_rate": 0.0433,
+      "best_params": {
+        "best_epoch": "34"
+      },
+      "n_features": 1024,
+      "fit_seconds": 17.506845799995062,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 2,
+      "error_rate": 0.07630000000000003,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 5.048555000001215,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 2,
+      "error_rate": 0.025000000000000022,
+      "best_params": {
+        "n_components": "20"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.7902825999990455,
+      "extra": {
+        "sigma_d2": 0.08732502107637832,
+        "lambda_d": 3.6223176012061225
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 2,
+      "error_rate": 0.03059999999999996,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.8229448999991291,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 2,
+      "error_rate": 0.013800000000000034,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 3472,
+      "fit_seconds": 3.9733134000052814,
+      "extra": {
+        "sigma_d2": 0.1553429746704674,
+        "lambda_d": 3.1817350854188966
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 2,
+      "error_rate": 0.024800000000000044,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 18.941765000003215,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 2,
+      "error_rate": 0.0211,
+      "best_params": {
+        "best_epoch": "59"
+      },
+      "n_features": 1024,
+      "fit_seconds": 56.18288209999446,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 2,
+      "error_rate": 0.05569999999999997,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 17.15890539999964,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 2,
+      "error_rate": 0.022299999999999986,
+      "best_params": {
+        "n_components": "20"
+      },
+      "n_features": 400,
+      "fit_seconds": 5.374838900002942,
+      "extra": {
+        "sigma_d2": 0.07792039530902585,
+        "lambda_d": 3.629123860586578
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 2,
+      "error_rate": 0.022499999999999964,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 400,
+      "fit_seconds": 5.528272199997446,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 2,
+      "error_rate": 0.012499999999999956,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 3472,
+      "fit_seconds": 10.890623400002369,
+      "extra": {
+        "sigma_d2": 0.13317649778494228,
+        "lambda_d": 3.172844227089427
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 2,
+      "error_rate": 0.01739999999999997,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 58.746849700000894,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 2,
+      "error_rate": 0.0154,
+      "best_params": {
+        "best_epoch": "40"
+      },
+      "n_features": 1024,
+      "fit_seconds": 94.97836769999412,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 2,
+      "error_rate": 0.037799999999999945,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 87.6758090000003,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 2,
+      "error_rate": 0.01770000000000005,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 8.505743100002292,
+      "extra": {
+        "sigma_d2": 0.02869742195404363,
+        "lambda_d": 3.8785764999820835
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 2,
+      "error_rate": 0.01770000000000005,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 26.910856200003764,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 2,
+      "error_rate": 0.009000000000000008,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 3472,
+      "fit_seconds": 38.540134599999874,
+      "extra": {
+        "sigma_d2": 0.07344580865512021,
+        "lambda_d": 3.5140457350971204
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 2,
+      "error_rate": 0.0121,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 3472,
+      "fit_seconds": 285.29310650000116,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 2,
+      "error_rate": 0.0102,
+      "best_params": {
+        "best_epoch": "57"
+      },
+      "n_features": 1024,
+      "fit_seconds": 257.45383500000025,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 2,
+      "error_rate": 0.028699999999999948,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 275.3383694000004,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 2,
+      "error_rate": 0.01849999999999996,
+      "best_params": {
+        "n_components": "20"
+      },
+      "n_features": 400,
+      "fit_seconds": 12.099791200002073,
+      "extra": {
+        "sigma_d2": 0.06895161490267417,
+        "lambda_d": 3.8926790592971656
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 2,
+      "error_rate": 0.012199999999999989,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 400,
+      "fit_seconds": 71.99293190000026,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 2,
+      "error_rate": 0.008600000000000052,
+      "best_params": {
+        "n_components": "140"
+      },
+      "n_features": 3472,
+      "fit_seconds": 76.947737399998,
+      "extra": {
+        "sigma_d2": 0.04279950802689154,
+        "lambda_d": 3.7334418439345347
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 2,
+      "error_rate": 0.009600000000000053,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 823.5633942000059,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 2,
+      "error_rate": 0.0083,
+      "best_params": {
+        "best_epoch": "54"
+      },
+      "n_features": 1024,
+      "fit_seconds": 506.37523100000544,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 3,
+      "error_rate": 0.13980000000000004,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 0.6904954999990878,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 3,
+      "error_rate": 0.05069999999999997,
+      "best_params": {
+        "n_components": "19"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.07845870000164723,
+      "extra": {
+        "sigma_d2": 0.1342537455567155,
+        "lambda_d": 3.0910539207621035
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 3,
+      "error_rate": 0.08040000000000003,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.3636837000012747,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 3,
+      "error_rate": 0.04079999999999995,
+      "best_params": {
+        "n_components": "10"
+      },
+      "n_features": 3472,
+      "fit_seconds": 0.6269338999991305,
+      "extra": {
+        "sigma_d2": 0.3666391533988561,
+        "lambda_d": 2.4383606249166254
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 3,
+      "error_rate": 0.04530000000000001,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 2.6521782999989227,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 3,
+      "error_rate": 0.0395,
+      "best_params": {
+        "best_epoch": "36"
+      },
+      "n_features": 1024,
+      "fit_seconds": 18.708444099996996,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 3,
+      "error_rate": 0.0827,
+      "best_params": {
+        "svc__C": "1.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 5.059164600002987,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 3,
+      "error_rate": 0.028100000000000014,
+      "best_params": {
+        "n_components": "10"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.8097649999981513,
+      "extra": {
+        "sigma_d2": 0.16199199872459458,
+        "lambda_d": 3.119361830484596
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 3,
+      "error_rate": 0.03649999999999998,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.8076050999952713,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 3,
+      "error_rate": 0.012800000000000034,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 3472,
+      "fit_seconds": 3.9803670999972383,
+      "extra": {
+        "sigma_d2": 0.15599535880915086,
+        "lambda_d": 3.1159187605696124
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 3,
+      "error_rate": 0.02400000000000002,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 19.02705199999764,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 3,
+      "error_rate": 0.0202,
+      "best_params": {
+        "best_epoch": "59"
+      },
+      "n_features": 1024,
+      "fit_seconds": 56.010308899996744,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 3,
+      "error_rate": 0.06369999999999998,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 17.074628800000937,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 3,
+      "error_rate": 0.02200000000000002,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 5.121444000003976,
+      "extra": {
+        "sigma_d2": 0.03393910712901674,
+        "lambda_d": 3.834963918932874
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 3,
+      "error_rate": 0.022599999999999953,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 400,
+      "fit_seconds": 5.5738482999950065,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 3,
+      "error_rate": 0.011900000000000022,
+      "best_params": {
+        "n_components": "132"
+      },
+      "n_features": 3472,
+      "fit_seconds": 10.719908399994893,
+      "extra": {
+        "sigma_d2": 0.06929852914742081,
+        "lambda_d": 3.5671591334494055
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 3,
+      "error_rate": 0.01739999999999997,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 58.67570220000198,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 3,
+      "error_rate": 0.016,
+      "best_params": {
+        "best_epoch": "46"
+      },
+      "n_features": 1024,
+      "fit_seconds": 101.12821790000453,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 3,
+      "error_rate": 0.037799999999999945,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 84.88052009999956,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 3,
+      "error_rate": 0.020100000000000007,
+      "best_params": {
+        "n_components": "20"
+      },
+      "n_features": 400,
+      "fit_seconds": 8.32516040000337,
+      "extra": {
+        "sigma_d2": 0.07133020616309659,
+        "lambda_d": 3.798658116939032
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 3,
+      "error_rate": 0.016599999999999948,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 400,
+      "fit_seconds": 26.674850100003823,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 3,
+      "error_rate": 0.009700000000000042,
+      "best_params": {
+        "n_components": "140"
+      },
+      "n_features": 3472,
+      "fit_seconds": 37.68881220000185,
+      "extra": {
+        "sigma_d2": 0.04924105595524497,
+        "lambda_d": 3.701708089086428
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 3,
+      "error_rate": 0.012700000000000045,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 3472,
+      "fit_seconds": 277.0380273999981,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 3,
+      "error_rate": 0.0114,
+      "best_params": {
+        "best_epoch": "58"
+      },
+      "n_features": 1024,
+      "fit_seconds": 258.3789073000007,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 3,
+      "error_rate": 0.030200000000000005,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 268.6371471999955,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 3,
+      "error_rate": 0.01870000000000005,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 400,
+      "fit_seconds": 13.484861599994474,
+      "extra": {
+        "sigma_d2": 0.007979586256462102,
+        "lambda_d": 3.8505585407181693
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 3,
+      "error_rate": 0.011499999999999955,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 400,
+      "fit_seconds": 74.96864880000066,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 3,
+      "error_rate": 0.008099999999999996,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 3472,
+      "fit_seconds": 84.99719190000178,
+      "extra": {
+        "sigma_d2": 0.06663005160196418,
+        "lambda_d": 3.557408197994846
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 3,
+      "error_rate": 0.009700000000000042,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 1032.0564058000018,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 3,
+      "error_rate": 0.0074,
+      "best_params": {
+        "best_epoch": "55"
+      },
+      "n_features": 1024,
+      "fit_seconds": 1125.0452482000037,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 4,
+      "error_rate": 0.13360000000000005,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 0.7027339000051143,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 4,
+      "error_rate": 0.056499999999999995,
+      "best_params": {
+        "n_components": "10"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.08209410000563366,
+      "extra": {
+        "sigma_d2": 0.20766432302291457,
+        "lambda_d": 2.8874206450763746
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 300,
+      "seed": 4,
+      "error_rate": 0.07269999999999999,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 400,
+      "fit_seconds": 0.4038751999978558,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 4,
+      "error_rate": 0.049000000000000044,
+      "best_params": {
+        "n_components": "10"
+      },
+      "n_features": 3472,
+      "fit_seconds": 0.766916399996262,
+      "extra": {
+        "sigma_d2": 0.36441262210157255,
+        "lambda_d": 2.4808673009717306
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 300,
+      "seed": 4,
+      "error_rate": 0.056400000000000006,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 2.68640669999877,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 300,
+      "seed": 4,
+      "error_rate": 0.0418,
+      "best_params": {
+        "best_epoch": "36"
+      },
+      "n_features": 1024,
+      "fit_seconds": 18.01476669999829,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 4,
+      "error_rate": 0.0776,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 5.3161601000028895,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 4,
+      "error_rate": 0.028299999999999992,
+      "best_params": {
+        "n_components": "20"
+      },
+      "n_features": 400,
+      "fit_seconds": 2.2200606999977026,
+      "extra": {
+        "sigma_d2": 0.08728871780825342,
+        "lambda_d": 3.3801483219760633
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 1000,
+      "seed": 4,
+      "error_rate": 0.03359999999999996,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 400,
+      "fit_seconds": 1.9365557999990415,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 4,
+      "error_rate": 0.016599999999999948,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 3472,
+      "fit_seconds": 4.735416700001224,
+      "extra": {
+        "sigma_d2": 0.1562534841845706,
+        "lambda_d": 2.9309022551766697
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 1000,
+      "seed": 4,
+      "error_rate": 0.02310000000000001,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 20.33356459999777,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 1000,
+      "seed": 4,
+      "error_rate": 0.025,
+      "best_params": {
+        "best_epoch": "45"
+      },
+      "n_features": 1024,
+      "fit_seconds": 49.26287890000094,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 4,
+      "error_rate": 0.054400000000000004,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 784,
+      "fit_seconds": 17.032134599998244,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 4,
+      "error_rate": 0.021700000000000053,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 400,
+      "fit_seconds": 6.092618599999696,
+      "extra": {
+        "sigma_d2": 0.012125196533689552,
+        "lambda_d": 3.7493142937538146
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 2000,
+      "seed": 4,
+      "error_rate": 0.027000000000000024,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 400,
+      "fit_seconds": 5.87772629999381,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 4,
+      "error_rate": 0.011600000000000055,
+      "best_params": {
+        "n_components": "80"
+      },
+      "n_features": 3472,
+      "fit_seconds": 10.413732599998184,
+      "extra": {
+        "sigma_d2": 0.09047138560789947,
+        "lambda_d": 3.4739280635782457
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 2000,
+      "seed": 4,
+      "error_rate": 0.019100000000000006,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 59.60663680000289,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 2000,
+      "seed": 4,
+      "error_rate": 0.0169,
+      "best_params": {
+        "best_epoch": "59"
+      },
+      "n_features": 1024,
+      "fit_seconds": 103.44939610000438,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 4,
+      "error_rate": 0.03639999999999999,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 83.18582769999921,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 4,
+      "error_rate": 0.02070000000000005,
+      "best_params": {
+        "n_components": "20"
+      },
+      "n_features": 400,
+      "fit_seconds": 7.169911299999512,
+      "extra": {
+        "sigma_d2": 0.07167043823935193,
+        "lambda_d": 3.7865326392139793
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 5000,
+      "seed": 4,
+      "error_rate": 0.01629999999999998,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 400,
+      "fit_seconds": 24.548439199999848,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 4,
+      "error_rate": 0.01090000000000002,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 3472,
+      "fit_seconds": 32.67945150000014,
+      "extra": {
+        "sigma_d2": 0.11691719027912047,
+        "lambda_d": 3.2963630508537385
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 5000,
+      "seed": 4,
+      "error_rate": 0.012700000000000045,
+      "best_params": {
+        "svc__C": "100.0",
+        "svc__gamma": "0.0001"
+      },
+      "n_features": 3472,
+      "fit_seconds": 251.8988778999992,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 5000,
+      "seed": 4,
+      "error_rate": 0.0117,
+      "best_params": {
+        "best_epoch": "55"
+      },
+      "n_features": 1024,
+      "fit_seconds": 248.95415990000038,
+      "extra": {
+        "n_parameters": 75626
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 4,
+      "error_rate": 0.02859999999999996,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "0.01"
+      },
+      "n_features": 784,
+      "fit_seconds": 282.2127682999999,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 4,
+      "error_rate": 0.017199999999999993,
+      "best_params": {
+        "n_components": "40"
+      },
+      "n_features": 400,
+      "fit_seconds": 13.24679080000351,
+      "extra": {
+        "sigma_d2": 0.02692049826723817,
+        "lambda_d": 4.045864402091304
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat1",
+      "train_size": 10000,
+      "seed": 4,
+      "error_rate": 0.012599999999999945,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 400,
+      "fit_seconds": 75.12694330000522,
+      "extra": {}
+    },
+    {
+      "model": "affine_pca",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 4,
+      "error_rate": 0.008000000000000007,
+      "best_params": {
+        "n_components": "140"
+      },
+      "n_features": 3472,
+      "fit_seconds": 87.51826110000547,
+      "extra": {
+        "sigma_d2": 0.04273305505157994,
+        "lambda_d": 3.66743369236679
+      }
+    },
+    {
+      "model": "svm",
+      "descriptor": "scat2",
+      "train_size": 10000,
+      "seed": 4,
+      "error_rate": 0.00990000000000002,
+      "best_params": {
+        "svc__C": "10.0",
+        "svc__gamma": "scale"
+      },
+      "n_features": 3472,
+      "fit_seconds": 836.6561264999982,
+      "extra": {}
+    },
+    {
+      "model": "cnn",
+      "descriptor": "pixels",
+      "train_size": 10000,
+      "seed": 4,
+      "error_rate": 0.0075,
+      "best_params": {
+        "best_epoch": "55"
+      },
+      "n_features": 1024,
+      "fit_seconds": 488.2981054000047,
+      "extra": {
+        "n_parameters": 75626
+      }
+    }
+  ]
+}
